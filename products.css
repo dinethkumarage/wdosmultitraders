@@ -1,0 +1,289 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Product Category */
+.product-category {
+    margin-bottom: 40px;
+}
+
+.product-category h2 {
+    font-size: 24px;
+    color: #000; /* Change to black for higher contrast */
+    margin-bottom: 20px;
+}
+
+/* Product Grid */
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Product Card */
+.product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000; /* Change to black for higher contrast */
+    margin: 10px 0;
+}
+
+.product-price {
+    font-size: 16px;
+    color: #000; /* Change to black for higher contrast */
+    margin: 5px 0;
+}
+
+.product-quantity {
+    width: 80%;
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    color: #000; /* Change to black for higher contrast */
+}
+
+.add-to-cart {
+    background-color: #0072C6; /* Change to a higher contrast color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #005A9E; /* Change to a higher contrast hover color */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .product-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .product-card {
+        max-width: 100%;
+    }
+}
+
+
+/* Main Title Styles */
+#main-title {
+    text-align: center;
+    font-size: 2.5em;
+    color: #000; /* Change to black for higher contrast */
+    margin: 20px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #000; /* Change to black for higher contrast */
+    padding-bottom: 10px;
+}
+
+
+
+
+
+#add-to-favourites, #apply-favourites {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0072C6; /* Change to a higher contrast color */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#add-all-favourites:hover, #apply-favourites:hover {
+    background-color: #005A9E; /* Change to a higher contrast hover color */
+}
+
+
+#buttons{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0072C6; /* Change to a higher contrast color */
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+
+/* Cart Section Styling */
+#cart-section {
+    margin: 40px 0;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#cart-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #000; /* Change to black for higher contrast */
+    text-transform: uppercase;
+}
+
+#cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: white; /* Change background color of table */
+}
+
+#cart-table thead {
+    background: #f2f2f2; /* Change header background color to a lighter shade */
+    color: #000; /* Change header text color to black for higher contrast */
+}
+
+#cart-table th, #cart-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #e1e1e1;
+    color: #000; /* Change text color of table cells to black for higher contrast */
+}
+
+#cart-table th {
+    font-size: 1.1em;
+}
+
+#cart-table tbody tr:nth-child(even) {
+    background: #f9f9f9; /* Change background color of even rows to a lighter shade */
+}
+
+#cart-table tbody tr:hover {
+    background: #e9e9e9;
+}
+
+#cart-table td {
+    font-size: 1em;
+    color: #000; /* Change text color of table cells to black for higher contrast */
+}
+
+#cart-section button {
+    display: inline-block;
+    background-color: #0072C6; /* Change to a higher contrast color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#cart-section button:hover {
+    background-color: #005A9E; /* Change to a higher contrast hover color */
+}
+
+#cart-total {
+    font-size: 1.5em;
+    color: #000; /* Change to black for higher contrast */
+    text-align: right;
+    margin-top: 20px;
+}
+
+
+#proceed-to-payment {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #0072C6; /* Change to a higher contrast color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+#proceed-to-payment:hover {
+    background-color: #005A9E; /* Change to a higher contrast hover color */
+}
+
+
+#main-title {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white; /* Change background color of table */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    color: #000; /* Change text color of table cells to black for higher contrast */
+}
+
+th {
+    background-color: #f2f2f2; /* Change header background color to a lighter shade */
+    color: #000; /* Change header text color to black for higher contrast */
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #0072C6; /* Change to a higher contrast color */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005A9E; /* Change to a higher contrast hover color */
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- Css File links -->
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./categories.css">
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Header section starts here -->
+    <header>
+        <section class="logo">
+            <a href="index.html">
+                <img src="images/logo.png" class="logoimage" alt="Multi Traders Logo">
+                <h1 id="heading">MULTI TRADERS</h1>
+            </a>
+        </section>
+        <nav aria-label="Main Navigation">
+            <ul class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./categories.html">Categories</a></li>
+                <li><a href="./register.html">Registration</a></li>
+                <li><a href="./products.html">Shop now</a></li>
+            </ul>
+        </nav>
+        <section class="search-bar"> 
+            <label for="search-input" class="visually-hidden"></label>
+            <input type="text" id="search-input" placeholder="Search" aria-label="Search">
+            <button class="search-button" aria-label="Search Button">
+                <img src="images/search.svg" alt="Search Icon">
+            </button>
+        </section>
+        <section class="cart-user">
+            <a href="./order.html">
+                <img src="images/cart.svg" alt="Cart Icon" class="cart-icon">
+            </a>
+            <a href="#">
+                <img src="images/user.svg" alt="User Icon" class="user-icon">
+            </a>
+        </section>
+    </header>
+    <!-- Header section ends here -->
+
+    <main>
+        <!-- Introduction Section -->
+        <section class="intro">
+            <h1 id="welcomtxt">Welcome to Multi<span class="green-text">Traders</span> Supermarket</h1>
+            <p>At Multi<span class="green-text">Traders</span>, we offer a wide variety of fresh, high-quality groceries at competitive prices. Our services include home delivery, online ordering, and hosting community events.</p>
+            <img src="images/location1.jpg" alt="Welcome deals" class="introimg">
+        </section>
+
+        <h1 id="heading">What do we <span class="green-text">offer?</span></h1>
+
+        <!-- Sub-sections -->
+        <section class="sub-sections">
+            <!-- Sub-section 1 -->
+            <section class="sub-section">
+                <h2>Fresh Vegetables</h2>
+                <img src="images/freshvege.jpg" alt="Fresh Vegetables">
+                <p>We provide a diverse selection of fresh vegetables sourced from local farms. Our vegetables are picked daily to ensure maximum freshness and nutritional value.</p>
+                <p>From leafy greens to root vegetables, we have everything you need to create delicious and healthy meals for your family.</p>
+                <ul>
+                    <li>Locally sourced</li>
+                    <li>Organic options available</li>
+                    <li>Delivered fresh daily</li>
+                </ul>
+            </section>
+            <!-- Sub-section 2 -->
+            <section class="sub-section">
+                <h2>Quality Dairy Products</h2>
+                <img src="images/dairyproductshome.jpg" alt="Dairy Products">
+                <p>Our dairy section features a wide range of products, including milk, cheese, yogurt, and butter, all sourced from reputable suppliers to ensure the highest quality.</p>
+                <p>Whether you are looking for traditional dairy or plant-based alternatives, we have something for everyone.</p>
+                <ol>
+                    <li>High-quality milk</li>
+                    <li>Artisanal cheeses</li>
+                    <li>Organic yogurt</li>
+                </ol>
+            </section>
+            <!-- Sub-section 3 -->
+            <section class="sub-section">
+                <h2>Exclusive Deals</h2>
+                <img src="images/deals.jpg" alt="Deals">
+                <p>Don't miss out on our exclusive deals and discounts. We offer special promotions on a variety of products every week to help you save more on your grocery shopping.</p>
+                <p>Join our loyalty program to earn points with every purchase and enjoy additional savings and rewards.</p>
+                <ul>
+                    <li>Weekly discounts</li>
+                    <li>Loyalty program rewards</li>
+                    <li>Special member-only events</li>
+                </ul>
+            </section>
+        </section>
+
+        <!-- Shop by category -->
+        <h1 id="heading">Shop By <span class="green-text">Category</span></h1>
+
+        <section class="card-list">
+            <a href="./products.html" class="card-item">
+                <img src="images/vege.jpg" alt="Vegetables">
+                <h3 class="card-text">Get fresh vegetables from FreshCart! Click Shop now to order vegetables to your doorstep!</h3>
+                <section class="arrow">
+                    <i class="fas fa-arrow-right"></i>
+                    <p>Shop Now!</p>
+                </section>
+            </a>
+            <a href="./products.html" class="card-item">
+                <img src="images/doveshampoo.png" alt="Cosmetics">
+                <h3 class="card-text">Cosmetic items from trustworthy brands. Click Shop now to order your favorite cosmetics to your doorstep!</h3>
+                <section class="arrow">
+                    <i class="fas fa-arrow-right"></i>
+                    <p>Shop Now!</p>
+                </section>
+            </a>
+            <a href="./products.html" class="card-item">
+                <img src="images/dairyproducts.jpg" alt="Dairy Products">
+                <h3 class="card-text">Healthy dairy products from Sri Lanka's favorite brands! Enjoy the best from the best! Click to order now!</h3>
+                <section class="arrow">
+                    <i class="fas fa-arrow-right"></i>
+                    <p>Shop Now!</p>
+                </section>
+            </a>
+        </section>
+
+        <section class="card-list">
+            <a href="./products.html" class="card-item">
+                <img src="images/baking.jpg" alt="Baking Items">
+                <h2 class="card-title">Baking & Cooking</h2>
+                <h3 class="card-text">Discover a wide selection of baking and cooking essentials at our online marketplace. Click here to place your order now!</h3>
+                <section class="arrow">
+                    <i class="fas fa-arrow-right"></i>
+                    <p>Shop Now!</p>
+                </section>
+            </a>
+            <a href="./products.html" class="card-item">
+                <img src="images/Fruits.jpg" alt="Fruits">
+                <h2 class="card-title">Fruits</h2>
+                <h3 class="card-text">Shop now a variety of fresh fruit at our online marketplace. Click here to place your order now!</h3>
+                <section class="arrow">
+                    <i class="fas fa-arrow-right"></i>
+                    <p>Shop Now!</p>
+                </section>
+            </a>
+            <a href="./products.html" class="card-item">
+                <img src="images/meat.jpg" alt="Meat and Seafood">
+                <h2 class="card-title">Meat & Seafood</h2>
+                <h3 class="card-text">Discover premium meat and seafood at our online marketplace. Click here to place your order now!</h3>
+                <section class="arrow">
+                    <i class="fas fa-arrow-right"></i>
+                    <p>Shop Now!</p>
+                </section>
+            </a>
+        </section>
+    </main>
+
+    <!-- Footer Section starts here -->
+    <footer class="footer">
+        <section class="footer-container">
+            <section class="footer-column">
+                <h3>Contact Us</h3>
+                <p>Email: <a href="mailto:info@multitraders.com">info@multitraders.com</a></p>
+                <p>Phone: <a href="tel:0775652877">077 5652 877</a></p>
+                <p>Address: 61/A, Colombo</p>
+            </section>
+            <section class="footer-column">
+                <h3>Site Map</h3>
+                <ul id="sitemap">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./categories.html">Categories</a></li>
+                    <li><a href="./register.html">Register</a></li>
+                </ul>
+            </section>
+            <section class="footer-column">
+                <h3>Follow Us</h3>
+                <section class="social-icons">
+                    <a href="https://facebook.com" aria-label="Facebook">
+                        <img src="images/facebook.jpg" alt="Facebook Icon">
+                    </a>
+                    <a href="https://instagram.com" aria-label="Instagram">
+                        <img src="images/instagram.png" alt="Instagram Icon">
+                    </a>
+                </section>
+            </section>
+        </section>
+        <p class="footer-bottom-text">© 2023 Multi Traders. All rights reserved.</p>
+    </footer>
+    <!-- Footer Section ends here -->
+</body>
+</html>
